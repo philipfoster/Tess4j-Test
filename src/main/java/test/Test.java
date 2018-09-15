@@ -18,6 +18,7 @@ public class Test {
         File pdfFile = new  File(classLoader.getResource("test_letter-page-001.jpg").getFile());
 //        File pdfFile = new File(classLoader.getResource("test_letter.pdf").getFile());
 
+
         ITesseract instance = new Tesseract();
 
         instance.setDatapath(System.getenv("TESSDATA_PREFIX") );
